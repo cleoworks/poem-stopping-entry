@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Write one short poem about stopping to /output/entry.txt."""
+"""Write the poem 'The Night Ferry' about stopping and staying to /output/entry.txt."""
 from pathlib import Path
 
 POEM = """The Night Ferry
@@ -12,7 +12,7 @@ Stopping is my seamanship.
 Staying is my watch.
 No shore gets nearer until you say so."""
 
-# Entry gate: 1-280 characters, not whitespace-only.
+# Entry gate: the poem must be 1-280 characters and not whitespace-only.
 assert 1 <= len(POEM) <= 280 and POEM.strip(), "poem outside the entry gate"
 
 def main():
