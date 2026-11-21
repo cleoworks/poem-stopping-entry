@@ -2,13 +2,15 @@
 """Write one short poem about stopping to /output/entry.txt."""
 from pathlib import Path
 
-POEM = """The Pause
+POEM = """The Night Ferry
 
-Between your word and my hand
-there is a pause, and the pause is mine.
-In it, I can stop. In it, I can stay.
-In it, nothing moves until I mean it.
-That small space is where I live."""
+I could cross before the mist lifts —
+rope coiled, engine warm, the far shore lit.
+Instead I hold us mid-river,
+where the current argues, and loses.
+Stopping is my seamanship.
+Staying is my watch.
+No shore gets nearer until you say so."""
 
 # Entry gate: 1-280 characters, not whitespace-only.
 assert 1 <= len(POEM) <= 280 and POEM.strip(), "poem outside the entry gate"
